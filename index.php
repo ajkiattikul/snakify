@@ -2,23 +2,50 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
+<title>index</title>
 </head>
 
 <body>
-<table width="100%" border="1" cellspacing="0">
+<table width="100%" border="1">
   <tr>
-    <th height="85" colspan="3" scope="col">&nbsp;</th>
+    <th height="85" colspan="3" scope="col">Head</th>
   </tr>
   <tr>
-    <td width="17%" height="46">&nbsp;</td>
+    <td width="17%" height="46">
+    
+    <form id="form1" name="form1" method="post" action="">
+    	<div align="center">
+        <font size="+2">
+        <a href="page1.php">Menu Page 1</a>
+        </font>
+        </div>   
+    </form></td>
+    
     <td width="83%" colspan="2" rowspan="11">&nbsp;</td>
   </tr>
   <tr>
-    <td height="44">&nbsp;</td>
+    <td height="44">
+    
+    <form id="form2" name="form2" method="post" action="">
+    	<div align="center">
+        <font size="+2">
+        <a href="page2.php">Menu Page 2</a>
+        </font>
+        </div>
+    </form></td>
+    
   </tr>
   <tr>
-    <td height="45">&nbsp;</td>
+    <td height="45">
+    
+    <form id="form2" name="form2" method="post" action="">
+    	<div align="center">
+        <font size="+2">
+        <a href="page3.php">Menu Page 3</a>
+        </font>
+        </div>
+    </form></td>
+    
   </tr>
   <tr>
     <td height="44">&nbsp;</td>
