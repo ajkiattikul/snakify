@@ -2,9 +2,107 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>MenuPage 2</title>
+<title>index</title>
+
+
+<style type="text/css">
+font a {
+	font-family: "_Layiji MaHaNiYom V 1.2";
+	font-size: 30px;
+}
+body table tr td table {
+	font-family: "_Layiji MaHaNiYom V 1.2";
+}
+#form1 div a {
+	font-size: 30px;
+	font-family: "_Layiji MaHaNiYom V 1.2";
+}
+#form2 div {
+	font-family: "_Layiji MaHaNiYom V 1.2";
+	font-size: 30px;
+}
+</style>
 </head>
 
 <body>
+<table width="100%" border="1">
+  <tr>
+    <th height="85" colspan="3" scope="col">MenuPage 2</th>
+  </tr>
+  <tr>
+    <td width="17%" height="46">
+    
+    <form id="form1" name="form1" method="post" action="">
+    	<div align="center">
+        <a href="page1.php">Menu Page 1</a>
+        </div>   
+    </form></td>
+    
+    <td width="83%" colspan="2" rowspan="11">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="44" bgcolor="#00CCFF">
+    
+    <form id="form2" name="form2" method="post" action="">
+    	<div align="center">
+        <a href="page2.php">Menu Page 2</a>
+        </div>
+    </form></td>
+    
+  </tr>
+  <tr>
+    <td height="45" bgcolor="#99FFFF"><table width="117" border="0" align="center" cellspacing="0">
+    	    <tr>
+    	      <td width="66"><font size="+2">page 2.1</font></td>
+  	      </tr>
+    	    <tr>
+    	      <td><font size="+2">page 2.2</font></td>
+  	      </tr>
+    	    <tr>
+    	      <td><font size="+2">page 2.3</font></td>
+  	      </tr>
+    	    <tr>
+    	      <td><font size="+2">page 2.4</font></td>
+  	      </tr>
+    	    <tr>
+    	      <td><font size="+2">page 2.5</font></td>
+  	      </tr>
+    </table></td>
+    
+  </tr>
+  <tr>
+    <td height="44">
+    <form id="form2" name="form2" method="post" action="">
+    	<div align="center">
+        <a href="page3.php">Menu Page 3</a>
+        </div>
+    </form></td>
+  </tr>
+  </font>
+  <tr>
+    <td height="44">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="44">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="43">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="46">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="46">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="47">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="306">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="89" colspan="3">&nbsp;</td>
+  </tr>
+</table>
 </body>
 </html>
