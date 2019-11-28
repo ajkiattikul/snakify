@@ -3,6 +3,21 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>index</title>
+
+<style type="text/css">
+#form1 div font a {
+	font-family: "_Layiji MaHaNiYom V 1.2";
+	font-size: 30px;
+}
+
+#form2 div {
+	font-family: "_Layiji MaHaNiYom V 1.2";
+}
+#form2 div font a {
+	font-size: 30px;
+	font-family: "_Layiji MaHaNiYom V 1.2";
+}
+</style>
 </head>
 
 <body>
