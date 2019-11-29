@@ -6,25 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="css/bootstrap-reboot.css">
-    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-    
-    <link rel="stylesheet" href="js/bootstrap.bundle.js">
-    <link rel="stylesheet" href="js/bootstrap.bundle.min.js">
-    <link rel="stylesheet" href="js/bootstrap.js">
-    <link rel="stylesheet" href="js/bootstrap.min.js">
-    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
 
-    <title>Snakify</title>
+    <title>Test index</title>
   </head>
 <body>
-    <!-- <h1>Snakify</h1> 
-<!---------------------------------------------------------------------------------------------->
-
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#">Snakify</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +19,7 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
+      <!--<li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
@@ -49,10 +35,10 @@
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Something else here</a>
         </div>
-      </li>
+      
       <li class="nav-item">
         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
+      </li></li>-->
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -60,52 +46,24 @@
     </form>
   </div>
 </nav>
+<!---------------------------------------------------------------------------------------------->
+<link rel="stylesheet" href="styles.css">
+<div class="wrapper">
+	<div class="sidebar">
+    <ul>
+    	<li><a href="#"></i>Page</a></li>
+        <li><a href="#"></i>Page</a></li>
+        <li><a href="#"></i>Page</a></li>
+        <li><a href="#"></i>Page</a></li>
+        <li><a href="#"></i>Page</a></li>
+        <li><a href="#"></i>Page</a></li>
+    </ui> 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <table width="15%" height = "10%" border="1">
-      <tr>
-        <td height="45"><div align="center">MenuPage 1</div></td>
-      </tr>
-      <tr>
-        <td height="45"><div align="center">MenuPage 2</div></td>
-      </tr>
-      <tr>
-        <td height="45">&nbsp;</td>
-      </tr>
-      <tr>
-        <td height="45">&nbsp;</td>
-      </tr>
-      <tr>
-        <td height="45">&nbsp;</td>
-      </tr>
-      <tr>
-        <td height="45">&nbsp;</td>
-    </tr>
-      <tr>
-        <td height="45">&nbsp;</td>
-      </tr>
-      <tr>
-        <td height="45">&nbsp;</td>
-      </tr>
-      <tr>
-        <td height="45">&nbsp;</td>
-      </tr>
-      <tr>
-        <td height="45">&nbsp;</td>
-      </tr>
-      <tr>
-        <td height="45">&nbsp;</td>
-      </tr>
-      <tr>
-        <td height="45">&nbsp;</td>
-      </tr>
-      <tr>
-        <td height="45">&nbsp;</td>
-      </tr>
-</table>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>
+<!--------------------------------------------------------------------------------------------->
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>
 </body>
 </html>
