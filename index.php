@@ -1,94 +1,95 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>index</title>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<style type="text/css">
-#form1 div font a {
-	font-family: "_Layiji MaHaNiYom V 1.2";
-	font-size: 30px;
-}
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
 
-#form2 div {
-	font-family: "_Layiji MaHaNiYom V 1.2";
-}
-#form2 div font a {
-	font-size: 30px;
-	font-family: "_Layiji MaHaNiYom V 1.2";
-}
-</style>
-</head>
+    <title>Test index</title>
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Snakify</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-<body>
-<table width="100%" border="1">
-  <tr>
-    <th height="85" colspan="3" scope="col">Head</th>
-  </tr>
-  <tr>
-    <td width="17%" height="46">
-    
-    <form id="form1" name="form1" method="post" action="">
-    	<div align="center">
-        <font size="+2">
-        <a href="page1.php">Menu Page 1</a>
-        </font>
-        </div>   
-    </form></td>
-    
-    <td width="83%" colspan="2" rowspan="11">&nbsp;</td>
-  </tr>
-  <tr>
-    <td height="44">
-    
-    <form id="form2" name="form2" method="post" action="">
-    	<div align="center">
-        <font size="+2">
-        <a href="page2.php">Menu Page 2</a>
-        </font>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <!--<li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
         </div>
-    </form></td>
-    
-  </tr>
-  <tr>
-    <td height="45">
-    
-    <form id="form2" name="form2" method="post" action="">
-    	<div align="center">
-        <font size="+2">
-        <a href="page3.php">Menu Page 3</a>
-        </font>
-        </div>
-    </form></td>
-    
-  </tr>
-  <tr>
-    <td height="44">&nbsp;</td>
-  </tr>
-  <tr>
-    <td height="44">&nbsp;</td>
-  </tr>
-  <tr>
-    <td height="44">&nbsp;</td>
-  </tr>
-  <tr>
-    <td height="43">&nbsp;</td>
-  </tr>
-  <tr>
-    <td height="46">&nbsp;</td>
-  </tr>
-  <tr>
-    <td height="46">&nbsp;</td>
-  </tr>
-  <tr>
-    <td height="47">&nbsp;</td>
-  </tr>
-  <tr>
-    <td height="306">&nbsp;</td>
-  </tr>
-  <tr>
-    <td height="89" colspan="3">&nbsp;</td>
-  </tr>
-</table>
-</body>
+      
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li></li>-->
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+  <table width="100%" border="1" cellspacing="0">
+  	  <tr>
+  	    <td width="16%" height="45">&nbsp;</td>
+  	    <td width="84%" rowspan="10">
+        	<div align="center"><?php ?></div>
+        </td>
+    </tr>
+  	  <tr>
+  	    <td height="45">&nbsp;</td>
+    </tr>
+  	  <tr>
+  	    <td height="45">&nbsp;</td>
+    </tr>
+  	  <tr>
+  	    <td height="45">&nbsp;</td>
+    </tr>
+  	  <tr>
+  	    <td height="45">&nbsp;</td>
+    </tr>
+  	  <tr>
+  	    <td height="45">&nbsp;</td>
+    </tr>
+  	  <tr>
+  	    <td height="45">&nbsp;</td>
+    </tr>
+  	  <tr>
+  	    <td height="45">&nbsp;</td>
+    </tr>
+  	  <tr>
+  	    <td height="45">&nbsp;</td>
+    </tr>
+  	  <tr>
+  	    <td height="229">&nbsp;</td>
+    </tr>
+  	  <tr>
+  	    <td height="45">&nbsp;</td>
+  	    <td>&nbsp;</td>
+    </tr>
+  </table>
+<!--------------------------------------------------------------------------------------------->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>
+  </body>
 </html>
