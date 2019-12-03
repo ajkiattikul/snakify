@@ -1,95 +1,77 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+<head>
 
-    <title>Test index</title>
-  </head>
-  <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Snakify</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <!--<li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li></li>-->
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+  <title>Snakify</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<!-- Page Content -->
+    <div id="page-content-wrapper">
+		<nav class="navbar navbar-expand-lgborder-bottom" style="background-color:#FF8000">
+        <button class="btn btn-primary" id="menu-toggle" style="background-color:#FFB900"><font color="#FFFFFF">Snakify</font></button>
+        <font color="#FFFFFF">Computer Science</font>
+
+        <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>-->
+        
+      	</nav>
+<!---------------------------------------------------------------------------------------------->
+    <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+    
+      <div class="list-group list-group-flush">
+        <a href="index.php" class="list-group-item list-group-item-action bg-light">Home</a>
+        <a href="page1.php" class="list-group-item list-group-item-action bg-light">PageMenu1</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">PageMenu2</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">PageMenu3</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">PageMenu4</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">PageMenu5</a>
+        
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+<!---------------------------------------------------------------------------------------------->
+      <div class="container-fluid">
+        <h1 class="mt-4">Head</h1>
+        <!--<p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
+        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>. The top navbar is optional, and just for demonstration. Just create an element with the <code>#menu-toggle</code> ID which will toggle the menu when clicked.</p>
+      </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
   </div>
-</nav>
-  <table width="100%" border="1" cellspacing="0">
-  	  <tr>
-  	    <td width="16%" height="45">&nbsp;</td>
-  	    <td width="84%" rowspan="10">
-        	<div align="center"><?php ?></div>
-        </td>
-    </tr>
-  	  <tr>
-  	    <td height="45">&nbsp;</td>
-    </tr>
-  	  <tr>
-  	    <td height="45">&nbsp;</td>
-    </tr>
-  	  <tr>
-  	    <td height="45">&nbsp;</td>
-    </tr>
-  	  <tr>
-  	    <td height="45">&nbsp;</td>
-    </tr>
-  	  <tr>
-  	    <td height="45">&nbsp;</td>
-    </tr>
-  	  <tr>
-  	    <td height="45">&nbsp;</td>
-    </tr>
-  	  <tr>
-  	    <td height="45">&nbsp;</td>
-    </tr>
-  	  <tr>
-  	    <td height="45">&nbsp;</td>
-    </tr>
-  	  <tr>
-  	    <td height="229">&nbsp;</td>
-    </tr>
-  	  <tr>
-  	    <td height="45">&nbsp;</td>
-  	    <td>&nbsp;</td>
-    </tr>
-  </table>
-<!--------------------------------------------------------------------------------------------->
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>
-  </body>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
 </html>
